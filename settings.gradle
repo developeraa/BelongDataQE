@@ -1,0 +1,15 @@
+/*
+ * Copyright (c) Belong 2022. Not to be shared publicly.
+ */
+
+pluginManagement {
+    repositories {
+        mavenCentral()
+        maven {
+            url "https://plugins.gradle.org/m2/"
+        }
+    }
+}
+gradle.ext.projectGroup = "io.github.qa.belong"
+gradle.ext.projectName = "assignment"
+rootProject.setName(gradle.ext.projectName)
